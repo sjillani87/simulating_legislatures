@@ -1,3 +1,3 @@
 # simulating_legislatures
 
-This collection of code explores how legislative polarization varies as the bargaining space changes
+This collection of code examines how polarization (as measured using the DW-NOMINATE algorithm) varies as a function of the bargaining space.
