@@ -116,7 +116,7 @@ for (i in 1:dim(sq.matrix)[2]){
 
 pol_matrix_dem_normal<-data.frame(pol_matrix_dem_normal)
 
-#The following plots illustrate how polarization estimates vary based on the parameters
+#The following plot illustrates how polarization estimates vary based on the parameters
 #of the beta distribution from which status quos are drawn. The results demonstrate
 #that status quo policies disproportionately benefiting a single party may generate
 #heightened polarization in a legislature
