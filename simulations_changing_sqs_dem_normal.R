@@ -122,7 +122,6 @@ pol_matrix_dem_normal<-data.frame(pol_matrix_dem_normal)
 #heightened polarization in a legislature
 
 library(plotly)
-library(akima)
 
 dem_normal_plotly<-plot_ly(pol_matrix_dem_normal, x=~alpha, y = ~beta, z = ~polarization, type="contour",colorbar = list(title = 'Polarization'))
 htmlwidgets::saveWidget(dem_normal_plotly, file = "dem_normal_plotly.html")
